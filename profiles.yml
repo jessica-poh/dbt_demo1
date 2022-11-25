@@ -9,7 +9,7 @@ i_am_a_profile_name:  # your profile name from dbt_project.yml
       dataset: dbt_demo_bigquery  # your dataset for development (usually your name)
       threads: 4
       keyfile: /secret/dbt-service-keyfile
-      timeout_seconds: 300
+      timeout_seconds: 3600
       priority: interactive
       retries: 1
     
@@ -20,6 +20,6 @@ i_am_a_profile_name:  # your profile name from dbt_project.yml
       dataset: dbt_production  # your dataset for production
       threads: 4
       keyfile: /secret/dbt-service-keyfile
-      timeout_seconds: 300
+      timeout_seconds: 3600
       priority: interactive
       retries: 1
