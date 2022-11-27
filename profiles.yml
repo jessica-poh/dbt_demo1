@@ -1,4 +1,4 @@
-i_am_a_profile_name:  # your profile name from dbt_project.yml
+dbt_profile1:  # your profile name from dbt_project.yml
   target: dev  # your development environment
   outputs:
     
