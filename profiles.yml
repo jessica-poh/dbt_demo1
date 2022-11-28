@@ -6,7 +6,7 @@ dbt_profile1:  # your profile name from dbt_project.yml
       type: bigquery
       method: service-account
       project: first-demo-361604  # name of the project in BigQuery
-      dataset: dbt_demo_bigquery  # your dataset for development (usually your name)
+      dataset: dbt_production  # your dataset for development (usually your name)
       threads: 4
       keyfile: /secrets/dbt-service-keyfile
       timeout_seconds: 3600
