@@ -11,7 +11,7 @@
 
 with source_data as (
 
-    SELECT data.artists as artists, data.id as track_id, data.link as track_link, data.track_name as track_name FROM `first-demo-361604.spotify_data.raw_tracks`;
+    SELECT data.artists as artists, data.id as track_id, data.link as track_link, data.track_name as track_name FROM `first-demo-361604.spotify_data.raw_tracks`
 
 )
 
