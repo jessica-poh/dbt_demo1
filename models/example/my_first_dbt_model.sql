@@ -11,9 +11,7 @@
 
 with source_data as (
 
-    select 1 as id
-    union all
-    select null as id
+    SELECT data.artists as artists, data.id as track_id, data.link as track_link, data.track_name as track_name FROM `first-demo-361604.spotify_data.raw_tracks`;
 
 )
 
@@ -24,4 +22,3 @@ from source_data
     Uncomment the line below to remove records with null `id` values
 */
 
--- where id is not null
