@@ -13,13 +13,3 @@ dbt_profile1:  # your profile name from dbt_project.yml
       priority: interactive
       retries: 3
 
-    prod: # your production environment
-      type: bigquery
-      method: service-account
-      project: first-demo-361604  # name of the project in BigQuery
-      dataset: dbt_production  # your dataset for production
-      threads: 4
-      keyfile: /secrets/dbt-service-keyfile
-      timeout_seconds: 3600
-      priority: interactive
-      retries: 3
